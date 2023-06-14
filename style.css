@@ -1,0 +1,122 @@
+.heading {
+    color: rgb(47, 79, 141);
+    font-size: 66px;
+    font-family: "Chokokutai", cursive;
+    text-align: center;
+    text-shadow: 0px 3px 1px rgb(249, 0, 0), 0px 0px 5px rgb(14, 1, 49);
+    background-color: rgba(11, 84, 151, 0.651);
+
+}
+
+h1:hover {
+    text-shadow: 3px 3px 2px rgb(0, 87, 249), 0px 0px 5px rgb(234, 69, 4);
+    color: rgb(246, 246, 249);
+
+}
+
+.nab {
+    background-color: #2768a1;
+    padding: 4px;
+    text-align: left;
+
+}
+
+.nab li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    color: aquamarine;
+    text-shadow: 1px 1px 2px red;
+}
+
+#search {
+    border-radius: 10px;
+    border: 2px groove rgb(186, 15, 55);
+}
+
+li:hover {
+    background-color: rgb(6, 30, 22);
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.imgg img {
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    padding: 6px;
+    border: 5px groove #2768a1;
+}
+
+img:hover {
+    border: 2px solid rgb(3, 194, 208);
+
+}
+
+
+
+.text {
+    font-size: 37px;
+    text-align: center;
+    color: rgb(237, 247, 247);
+    text-shadow: 5px 5px 5px rgb(36, 14, 14), 2px 2px 4px black;
+    /*font-family: "Chokokutai", cursive;*/
+}
+
+.text:hover {
+
+    color: rgb(8, 156, 248);
+    text-shadow: 5px 2px 5px rgb(239, 5, 13), 2px 2px 4px black;
+}
+
+.text {
+    font-size: 37px;
+    text-align: center;
+    color: rgb(237, 247, 247);
+    text-shadow: 5px 5px 5px rgb(36, 14, 14), 2px 2px 4px black;
+}
+
+a {
+    font-size: 25px;
+    color: rgb(62, 3, 117);
+}
+
+a:hover {
+    text-shadow: 2px 2px 5px black;
+}
+
+.armor {
+    text-align: center;
+    background-color: #2768a1;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.textt {
+    display: inline-block;
+    border: 1px solid rgb(2, 47, 105);
+    padding: 10px;
+    margin: 65px;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    color: #13161a;
+    background: #a1a173;
+}
+
+h3 {
+    text-align: center;
+    background-color: #2768a1;
+    padding: 5px;
+    font-size: 40px;
+    color: rgb(244, 249, 249);
+    text-shadow: 5px 5px 5px rgb(19, 1, 1), 2px 2px 4px rgb(247, 242, 242);
+}
+
+.fan {
+    display: inline-block;
+
+
+}

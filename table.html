@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Chokokutai&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/CSS/style.css">
+  
+</head>
+<style>
+    .tab{
+        color: rgb(47, 79, 141);
+        font-size: 66px;
+        font-family: "Chokokutai", cursive;
+        text-align: center;
+        text-shadow: 3px 3px 2px rgb(249, 0, 0), 0px 0px 5px rgb(14, 1, 49);
+    }
+    table{
+        margin: auto;
+        padding: 15px;
+        border: 5px groove rgb(53, 9, 95);
+    }
+    thead{
+       
+        font-size: 40px;
+        color: rgb(97, 3, 184);
+        border: 2px solid black;
+    }
+    tbody{
+        
+        font-size: 40px;
+        color: rgb(1, 56, 73);
+        border: 2px solid rgb(95, 42, 42);
+    }
+    
+   tr:hover{
+    background-color: #544e02;
+    color: white;
+   }
+</style>
+<body>
+    <h1 class="heading">My PROJECT</h1>
+    <div>
+      <ul class="nab">
+        <li> Home</li>
+        <li>FAN-Form</li>
+        <li>MOVIES-Table</li>
+        <li>Gallery</li>
+        <label
+          class="material-symbols-outlined"
+          for="search"
+          style="
+            font-size: 25px;
+            color: aquamarine;
+            text-shadow: 1px 1px 2px red;
+          "
+          >Search</label
+        >
+        <li><input type="search" id="search" /></li>
+      </ul>
+    </div>
+    <HEAder><h1 class="tab">List Of Movies</h1></HEAder>
+    <table border="1">
+        <thead>
+            <th>Movie Name </th>
+            <th>Release Year</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>IRON MAN</td>
+                <td>1999</td>
+                
+            <tr>
+                <td>IRON MAN-2</td>
+                <td>2003</td>
+                
+            <tr>
+                <td>IRON MAN-3</td>
+                <td>2005</td>
+                
+            </tr>
+            <tr>
+                <td>AVENGERS</td>
+                <td>2006</td>
+            </tr>
+            <tr>
+                <td>CIVIL WAR</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>AGE OF ULTRON</td>
+                <td>2011</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
